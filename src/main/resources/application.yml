@@ -1,0 +1,14 @@
+#DataSource config
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+
+server:
+  port: 8081
+
+wyz:
+  jwt:
+    # 加密密钥
+    secret: f4e2e35201525f254b67eb5
+    # token有效时长
+    expire: 604800
+    header: Authorization
